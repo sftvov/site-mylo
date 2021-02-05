@@ -1,13 +1,20 @@
 .header {
 	&__top {
 		display: flex;
-		flex: 1;
 		height: 83px;
 		background-color: pink;
 	}
 	&__logo {
-		width: 50px;
-		height: 50px;
+		flex: 1;
 		background-color: aqua;
+	}
+	&__description {
+		flex: 1;
+	}
+	&__empty {
+		flex: 3;
+	}
+	&__contacts {
+		flex: 1;
 	}
 }

@@ -2,15 +2,31 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
   height: 83px;
   background-color: pink;
 }
 
 .header__logo {
-  width: 50px;
-  height: 50px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   background-color: aqua;
+}
+
+.header__description {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.header__empty {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+}
+
+.header__contacts {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
